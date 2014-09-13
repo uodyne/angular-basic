@@ -24,9 +24,14 @@ web-based flow:
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-## Documentation
+You can also take an existing Git repo and add a remote using the git URL provided when you created your app:
 
-Demo
+```
+heroku git:remote -a name-app-heroku
+```
+
+## Demo
+
 http://basic-angularjs.darkant.com/
 
 
