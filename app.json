@@ -1,0 +1,6 @@
+{
+  "name": "Basic AngularJS",
+  "description": "Basic template AngularJS",
+  "repository": "https://github.com/uodyne/angular-basic",
+  "keywords": ["node", "express", "heroku", "angularjs", "static"]
+}
