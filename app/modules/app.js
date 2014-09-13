@@ -1,4 +1,4 @@
-define(['angular', 'angular-route', 'uiRouter', 'angular-resource'], function(angular)
+define(['angular', 'ui.router', 'angular-resource'], function(angular)
 {
-	return angular.module('app', ['ngRoute', 'ngResource', 'ui.router']);
+	return angular.module('app', ['ngResource', 'ui.router']);
 });

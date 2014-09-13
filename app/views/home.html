@@ -1,8 +1,9 @@
 <div class="row">
-	<h1 class="heading text-center">Controller {{ ctrl }}</h1><hr>
-	<ul class="panel panel-info">
-		<li ng-repeat="user in users">
-			<p>Id: {{ user.id }} Name: {{ user.name }} Age: {{ user.age }}</p>
-		</li>
-	</ul>
+	<h1 class="lead">Controller {{ ctrl }}</h1>
+	<div class="panel panel-info list-group">
+		<h3>Users</h3>
+		<div ng-repeat="user in users">
+			<div class="list-group-item">Id: {{ user.id }} Name: {{ user.name }}</div>
+		</div>
+	</div>
 </div>

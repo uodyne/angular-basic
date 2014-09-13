@@ -1,0 +1,9 @@
+/* main css */
+#footer {
+	padding:20px;
+	text-align:center;
+	font-size:.9em;
+	opacity:.5;
+	border-top:1px solid #666;
+	margin-top:40px;
+}
