@@ -43,6 +43,12 @@ Info remote
 git remote -v
 ```
 
+Forze push 
+
+```
+git push heroku master
+```
+
 ## Demo
 
 http://basic-angularjs.darkant.com/
