@@ -1,5 +1,16 @@
 # angular-basic — Basic AngularJS
 
+NodeJS
++ AngularJS
+++ RequireJS
+++ uiRouter
++ Express
+
+## Demo
+
+http://basic-angularjs.darkant.com/
+
+
 ## Running Locally
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
 
@@ -46,11 +57,6 @@ git remote -v
 Forze push 
 
 ```
-git push heroku master
+git push -f heroku master
 ```
-
-## Demo
-
-http://basic-angularjs.darkant.com/
-
 
