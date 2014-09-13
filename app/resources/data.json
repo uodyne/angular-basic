@@ -1,0 +1,23 @@
+[
+    {
+        "id": 0,
+        "name": "Taylor Swift",
+        "age": 23,
+        "experience": "Programador Web"
+ 
+    },
+    {
+        "id": 1,
+        "name": "Beyonce",
+        "age": 38,
+        "experience": "Diseñador Web"
+ 
+    },
+    {
+        "id": 2,
+        "name": "Kim Kardashian",
+        "age": 40,
+        "experience": "Multimedia"
+ 
+    }
+]
