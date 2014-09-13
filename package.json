@@ -1,6 +1,5 @@
 {
   "name": "angular-basic",
-  "private": true,
   "version": "0.0.1",
   "description": "Basic template AngularJS",
   "repository": "https://github.com/uodyne/angular-basic",
