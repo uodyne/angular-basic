@@ -24,10 +24,23 @@ web-based flow:
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
+
 You can also take an existing Git repo and add a remote using the git URL provided when you created your app:
 
 ```
-heroku git:remote -a name-app-heroku
+heroku git:remote -a ***name-app-heroku***
+```
+
+Remove back
+
+```
+git remote rm heroku
+```
+
+Info remote
+
+```
+git remote -v
 ```
 
 ## Demo
