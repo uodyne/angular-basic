@@ -14,5 +14,9 @@ require.config({
 
 require(['angular', 'routes/routes'], function(angular, mainRoutes)
 {
+	setTimeout(function() {
+		document.getElementById( 'appContainer' ).className = 'loader';
+		document.getElementById( 'appLoading' ).className = 'loader';
+	},100);
 	return angular.bootstrap(document, ["app"]);
 });

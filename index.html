@@ -9,10 +9,13 @@
 	<script src="./bower_components/requirejs/require.js" data-main="app/main"></script>
 </head>
 <body>
+	<div id="appContainer">
 		<div id="header" ui-view="header"></div>
 		<div class="container">
 			<div id="content-primary" ui-view="content"></div>
 		</div>
 		<div id="footer" ui-view="footer"></div>
+	</div>
+	<div id="appLoading"><h1 class="lead">Loading app...</div></div>
 </body>
 </html>
