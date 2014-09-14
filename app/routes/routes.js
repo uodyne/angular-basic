@@ -10,34 +10,34 @@ define([
 	    .state('home', {
 	      url: "/",
 	      views: {
-	        "header": { templateUrl: './app/templates/header.html' },
+	        "header": { templateUrl: './templates/header.html' },
 	        "content": { 
 				controller: 'homeCtrl',
-				templateUrl: './app/views/home.html'	        
+				templateUrl: './views/home.html'	        
 	        },
-	        "footer": { templateUrl: './app/templates/footer.html' }
+	        "footer": { templateUrl: './templates/footer.html' }
 	      }
 	    })
 	    .state('login', {
 	      url: "/login",
 		  abstract: true,
 	      views: {
-	        "header": { templateUrl: './app/templates/header.html' },
+	        "header": { templateUrl: './templates/header.html' },
 	        "content": { 
 	        	controller: 'loginCtrl',
-				templateUrl: './app/views/login.html'
+				templateUrl: './views/login.html'
 			},
-	        "footer": { templateUrl: './app/templates/footer.html' }
+	        "footer": { templateUrl: './templates/footer.html' }
 	      }
 	    })
 	    .state('login.subs', {
     	 	url: '',
             views: {
                 'menu@login': {
-                    templateUrl: './app/views/login.menu.html'
+                    templateUrl: './views/login.menu.html'
                 },
                 'content@login': {
-                    templateUrl: './app/views/login.content.html'
+                    templateUrl: './views/login.content.html'
                 }
             }
 	    })

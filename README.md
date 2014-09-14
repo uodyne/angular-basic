@@ -2,8 +2,8 @@
 
 NodeJS
 + AngularJS
-++ RequireJS
-++ uiRouter
++ + RequireJS
++ + uiRouter
 + Express
 
 ## Demo
@@ -16,7 +16,7 @@ Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https
 
 ```sh
 git clone git@github.com:uodyne/angular-basic.git # or clone your own fork
-cd node-js-sample
+cd angular-basic
 npm install
 bower install
 npm start

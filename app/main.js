@@ -1,9 +1,9 @@
 require.config({
-	baseUrl: './app',
+	baseUrl: './',
 	paths: {
-		'angular': '../bower_components/angular/angular',
-		'angular-resource': '../bower_components/angular-resource/angular-resource',
-		'ui.router': '../bower_components/angular-ui-router/release/angular-ui-router'
+		'angular': './components/angular/angular',
+		'angular-resource': './components/angular-resource/angular-resource',
+		'ui.router': './components/angular-ui-router/release/angular-ui-router'
 	},
 	shim: {
 		'angular': {'exports': 'angular'},
