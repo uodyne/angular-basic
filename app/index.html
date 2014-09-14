@@ -9,15 +9,14 @@
 	<link rel="stylesheet" type="text/css" href="resources/css/bootstrap-theme.css" />
 	<script src="./components/requirejs/require.js" data-main="main"></script>
 </head>
-<body>
-	<div id="appContainer" ng-controller="mainCtrl">
+<body ng-controller="mainCtrl">
+	<div id="appContainer">
 		<div id="header" ui-view="header"></div>
 		<div class="container">
 			<div id="content-primary" ui-view="content"></div>
 		</div>
 		<div id="footer" ui-view="footer"></div>
 	</div>
-			<div id="innerSpinner"><div class="spinner" ng-show="hasPendingRequests()"><div class="dot1"></div><div class="dot2"></div></div></div></div>
 	<div id="appLoading"><div class="spinner"><div class="dot1"></div><div class="dot2"></div></div></div>
 </body>
 </html>

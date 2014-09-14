@@ -1,6 +1,7 @@
 /* main css */
 #header .navbar {
   border-bottom:2px solid #77bff2;
+  padding-right:20px;
 }
 #footer {
 	padding:20px;
@@ -113,14 +114,14 @@
 #innerSpinner {
   position:fixed;
   display:block;
-  bottom:0px;
+  top:-20px;
   right:0px;
-  height:100px;
-  width:100px;
+  height:30px;
+  width:30px;
 }
 #innerSpinner .spinner {
-  width:50px;
-  height:50px;
+  width:20px;
+  height:20px;
 
 }
 #innerSpinner .spinner .dot1, #innerSpinner .spinner .dot2 {
