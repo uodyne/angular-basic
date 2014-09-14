@@ -1,10 +1,10 @@
 require.config({
 	baseUrl: './',
 	paths: {
-		'angular': './components/angular/angular',
-		'angular-resource': './components/angular-resource/angular-resource',
+		'angular': './components/angular/angular.min',
+		'angular-resource': './components/angular-resource/angular-resource.min',
 		'domReady': './components/requirejs-domready/domReady',
-		'ui.router': './components/angular-ui-router/release/angular-ui-router'
+		'ui.router': './components/angular-ui-router/release/angular-ui-router.min'
 	},
 	shim: {
 		'angular': {'exports': 'angular'},
