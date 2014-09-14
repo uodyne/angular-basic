@@ -15,7 +15,7 @@ http://basic-angularjs.darkant.com/
 Make sure you have [Node.js](http://nodejs.org/) 
 
 And Bower. If not:
-```
+```sh
 sudo npm install bower -g
 ```
 
@@ -25,9 +25,12 @@ sudo npm install bower -g
 git clone git@github.com:uodyne/angular-basic.git myApp
 cd myApp
 npm install & bower install
-npm start
 ```
 ### Run
+
+```sh
+npm start
+```
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
@@ -35,7 +38,7 @@ Your app should now be running on [localhost:5000](http://localhost:5000/).
 
 Make sure you have [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
 
-```
+```sh
 heroku create
 git push heroku master
 heroku open
@@ -49,24 +52,24 @@ web-based flow:
 
 You can also take an existing Git repo and add a remote using the git URL provided when you created your app:
 
-```
+```sh
 heroku git:remote -a ***name-app-heroku***
 ```
 
 Remove back
 
-```
+```sh
 git remote rm heroku
 ```
 
 Info remote
 
-```
+```sh
 git remote -v
 ```
 
 Forze push 
 
-```
+```sh
 git push -f heroku master
 ```
