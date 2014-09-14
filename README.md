@@ -73,3 +73,5 @@ Forze push
 ```sh
 git push -f heroku master
 ```
+
+[ ![Codeship Status for uodyne/angular-basic](https://codeship.io/projects/79b9cb10-1e6c-0132-0c4f-7a12a542bc63/status)](https://codeship.io/projects/35530)
