@@ -35,9 +35,6 @@ define([
             views: {
                 'menu@login': {
                     templateUrl: './views/login.menu.html'
-                },
-                'content@login': {
-                    templateUrl: './views/login.content.html'
                 }
             }
 	    })
