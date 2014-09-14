@@ -1,4 +1,7 @@
 /* main css */
+#header .navbar {
+  border-bottom:2px solid #77bff2;
+}
 #footer {
 	padding:20px;
 	text-align:center;
@@ -76,7 +79,7 @@
   display: inline-block;
   position: absolute;
   top: 0;
-  background-color: #aaa;
+  background-color: #77bff2;
   border-radius: 100%;
   
   -webkit-animation: bounce 2.0s infinite ease-in-out;
@@ -106,4 +109,20 @@
     transform: scale(1.0);
     -webkit-transform: scale(1.0);
   }
+}
+#innerSpinner {
+  position:fixed;
+  display:block;
+  bottom:0px;
+  right:0px;
+  height:100px;
+  width:100px;
+}
+#innerSpinner .spinner {
+  width:50px;
+  height:50px;
+
+}
+#innerSpinner .spinner .dot1, #innerSpinner .spinner .dot2 {
+  background-color: #77bff2;
 }

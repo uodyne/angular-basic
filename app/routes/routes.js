@@ -1,5 +1,6 @@
 define([
 	'modules/app', 
+	'controllers/mainCtrl', 
 	'controllers/homeCtrl', 
 	'controllers/loginCtrl'
 ], function(app)

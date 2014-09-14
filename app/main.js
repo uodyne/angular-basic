@@ -20,6 +20,9 @@ require(['angular', 'routes/routes', 'domReady'], function(angular, mainRoutes, 
     domReady(function () {
 		document.getElementById( 'appContainer' ).className = 'loader';
 		document.getElementById( 'appLoading' ).className = 'loader';
+		setTimeout(function() {
+			document.getElementById( 'appLoading' ).className = 'hide';
+		},300);
     });
 	return angular.bootstrap(document, ["app"]);
 });
