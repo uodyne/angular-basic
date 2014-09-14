@@ -1,4 +1,4 @@
 <h2 class="lead">login.menu.html</h2>
 <div class="list-group">
-      <a ng-repeat="template in templates" class="list-group-item" ng-click="selectTemplate(template)">{{template.name}}</a>
+      <a ng-class="selectedTemplateId == template.id ? 'active' : 'NO'" ng-repeat="template in templates" class="list-group-item" ng-click="selectTemplate(template)">{{template.name}}</a>
  </div>
