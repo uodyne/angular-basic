@@ -8,7 +8,7 @@ NodeJS
 
 ## Demo
 
-http://basic-angularjs.darkant.com/
+http://desolate-journey-8025.herokuapp.com/
 
 
 ## Running Locally

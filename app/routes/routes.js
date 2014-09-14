@@ -41,6 +41,14 @@ define([
                 }
             }
 	    })
+	    .state('landing', {
+	      url: "/landing",
+	      views: {
+	        "content": { 
+				templateUrl: './views/landing.html'	        
+	        },
+	      }
+	    })
 	}).run(
   [          '$rootScope', '$state', '$stateParams',
     function ($rootScope,   $state,   $stateParams) {
