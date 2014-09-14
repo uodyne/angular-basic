@@ -14,11 +14,12 @@ http://basic-angularjs.darkant.com/
 ## Running Locally
 Make sure you have [Node.js](http://nodejs.org/) 
 
-And Bower:
+And Bower. If not:
 ```
 sudo npm install bower -g
 ```
 
+### Installation
 
 ```sh
 git clone git@github.com:uodyne/angular-basic.git myApp
@@ -26,6 +27,7 @@ cd myApp
 npm install & bower install
 npm start
 ```
+### Run
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
