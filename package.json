@@ -25,10 +25,7 @@
     "uirouter",
     "express"
   ],
-  "author": "Mark Pundsack",
-  "contributors": [
-    "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
-  ],
+  "author": "uodyne",
   "license": "MIT"
 }
 
